@@ -3,9 +3,10 @@ package com.example.tasktracker;
 public class Task {
     private int id;
     private String title;
-    private String status; // pending, completed
+    private String status;
 
-    public Task() {}
+    public Task() {
+    }
 
     public Task(int id, String title, String status) {
         this.id = id;
@@ -13,12 +14,28 @@ public class Task {
         this.status = status;
     }
 
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    // Getters and Setters
+    public int getId() {
+        return id;
+    }
 
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }

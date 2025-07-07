@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/tasks")
+@RequestMapping("/tasks") // This makes the base URL: /tasks
 public class TaskController {
 
     @Autowired
